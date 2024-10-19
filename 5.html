@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.net/vue/2.2.2/vue.min.js"></script>
+</head>
+
+<style>
+  .class1{
+    background: #444;
+    color: #eee;
+  }
+  </style>
+
+<body>
+<div id="name1">
+    {{message}}
+    <div>{{message}}</div>
+    <div v-html="message"></div><!--这个是直接输出html代码-->
+
+    <div v-bind:class="{'class1': state}">
+      v-bind:class 指令
+    </div>
+    <label for="r1">修改颜色</label><input type="checkbox" v-model="state" id="r1">
+    
+</div>
+	
+<script>
+new Vue({
+  el: '#name1',
+  data: {
+    message: '<h1>mess</h1>',//用逗号连接
+    state: false
+  }
+})
+</script>
+
+<input v-model="use" id="r2"><br><br>
+
+
+</body>
+</html>
