@@ -13,13 +13,13 @@
             <!-- 轮播图片 -->
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000"><!-- 3000ms切换一次 -->
-                    <a href="https://girls-band-cry.com/" target="_blank"><img src="../assets/樱花动漫/gbc.png" class="d-block w-100" alt="未加载"></a>
+                    <a href="https://girls-band-cry.com/" target="_blank"><img src="../assets/SakuraAnime/gbc.png" class="d-block w-100" alt="未加载"></a>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="../assets/樱花动漫/com_media_.jpg" class="d-block w-100" alt="未加载">
+                    <img src="../assets/SakuraAnime/com_media_.jpg" class="d-block w-100" alt="未加载">
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="../assets/樱花动漫/10001 (2).jpg" class="d-block w-100" alt="未加载">
+                    <img src="../assets/SakuraAnime/10001 (2).jpg" class="d-block w-100" alt="未加载">
                 </div>
             </div>
             <!-- 左右按钮 -->
