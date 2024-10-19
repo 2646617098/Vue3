@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div class="background">
         <Header_P />
@@ -23,7 +24,7 @@
 
         <div style="border-bottom:white 8px solid;padding-bottom: 120px;">
             <p style="font-size: 30px;color: pink;width: 90%;margin: auto;">synopsis:</p>
-            <img src="@/assets/刘康图选集/青春期少年图选/青春期封面.jpg" alt=""
+            <img src="@/assets/animeImg/青春期少年图选/青春期封面.jpg" alt=""
                 style="width: 400px;height: 250px;float: right;margin-left: 50px;border: 3px rgb(0, 255, 157) solid;">
             <!--封面图片k-->
             <p style="font-size: 15px;width: 90%;margin: auto;font-size: 22px;border-radius: 25px;">Sakita Tsukawa,
@@ -39,7 +40,7 @@
 
         <div style="border-bottom:white 8px solid;padding-bottom: 120px;">
             <p style="font-size: 30px;color: aqua;width: 90%;margin: auto;">Climactic scene:</p>
-            <img src="@/assets/刘康图选集/青春期少年图选/青春期情节.jpg" alt=""
+            <img src="@/assets/animeImg/青春期少年图选/青春期情节.jpg" alt=""
                 style="float: right;margin-left: 50px;border: 3px rgb(0, 255, 157) solid;">
             <!--情节图片k-->
             <p style="font-size: 15px;width: 90%;margin: auto;font-size: 22px;">Even after leaving Fujisawa and
@@ -56,14 +57,18 @@
             <p style="font-size: 30px;color: brown;width: 90%;margin: auto;">Main Character</p>
             <br><br>
             <div style="border-radius: 25px ;border: #333 8px solid;"> <!--主要人物头像k-->
-                <RouterLink to="/anime6/character1"><img src="@/assets/刘康图选集/青春期少年图选/咲太头像.jpg" alt=""
-                    style=" width: 150px;height: 150px;border-radius: 60%;border: 5px solid black;margin-left: 170px;"></RouterLink>
-                <RouterLink to="/anime6/character2"><img src="@/assets/刘康图选集/青春期少年图选/麻衣头像.jpg" alt=""
-                    style=" width: 150px;height: 150px;border-radius: 60%;border: 5px solid black;margin-left: 170px;"></RouterLink>
-                <RouterLink to="/anime6/character3"><img src="@/assets/刘康图选集/青春期少年图选/翔子头像.jpg" alt=""
-                    style=" width: 150px;height: 150px;border-radius: 60%;border: 5px solid black;margin-left: 170px;"></RouterLink>
-                <RouterLink to="/anime6/character4"><img src="@/assets/刘康图选集/青春期少年图选/古贺头像.jpg" alt=""
-                    style=" width: 150px;height: 150px;border-radius: 60%;border: 5px solid black;margin-left: 170px;"></RouterLink>
+                <RouterLink to="/anime6/character1"><img src="@/assets/animeImg/青春期少年图选/咲太头像.jpg" alt=""
+                        style=" width: 150px;height: 150px;border-radius: 60%;border: 5px solid black;margin-left: 170px;">
+                </RouterLink>
+                <RouterLink to="/anime6/character2"><img src="@/assets/animeImg/青春期少年图选/麻衣头像.jpg" alt=""
+                        style=" width: 150px;height: 150px;border-radius: 60%;border: 5px solid black;margin-left: 170px;">
+                </RouterLink>
+                <RouterLink to="/anime6/character3"><img src="@/assets/animeImg/青春期少年图选/翔子头像.jpg" alt=""
+                        style=" width: 150px;height: 150px;border-radius: 60%;border: 5px solid black;margin-left: 170px;">
+                </RouterLink>
+                <RouterLink to="/anime6/character4"><img src="@/assets/animeImg/青春期少年图选/古贺头像.jpg" alt=""
+                        style=" width: 150px;height: 150px;border-radius: 60%;border: 5px solid black;margin-left: 170px;">
+                </RouterLink>
                 <span></span>
                 <span style="white-space: nowrap;margin-left: 180px;"><a href="./咲太介绍页.html">Azusagawa
                         Sakut</a></span> <!--主要人物名-->
@@ -119,7 +124,7 @@ header h1 {
 }
 
 .background {
-    background-image: url(@/assets/刘康图选集/青春期少年图选/青春期少年背景.jpg);
+    background-image: url(@/assets/animeImg/青春期少年图选/青春期少年背景.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,24 +1,28 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/青春期少年图选/翔子头像.jpg" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/青春期少年图选/翔子头像.jpg" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>Makinohara Shoko</h2>
+                <!--人物简介-->
+                <p>Shoko Makinohara is Sakita's first love, and the girl who helped Sakita in the case of Kato in the
+                    past,
+                    after which her whereabouts are unknown. Sakita decided to apply for Minahara High School because
+                    she
+                    attended the school. Shoko Makinohara of "Real Time" is in fourth grade. Feeling insecure about his
+                    heart condition and future (he was diagnosed not to live to the end of junior high school), he was
+                    unable to fill out a career plan (homework at that time), causing puberty syndrome</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>Makinohara Shoko</h2>
-            <!--人物简介-->
-            <p>Shoko Makinohara is Sakita's first love, and the girl who helped Sakita in the case of Kato in the past,
-                after which her whereabouts are unknown. Sakita decided to apply for Minahara High School because she
-                attended the school. Shoko Makinohara of "Real Time" is in fourth grade. Feeling insecure about his
-                heart condition and future (he was diagnosed not to live to the end of junior high school), he was
-                unable to fill out a career plan (homework at that time), causing puberty syndrome</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 

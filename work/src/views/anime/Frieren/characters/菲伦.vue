@@ -1,20 +1,23 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/芙莉莲图选/头像菲.jpg" alt="">
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/芙莉莲图选/头像菲.jpg" alt="">
+            </div>
+            <div class="profile-info">
+                <h2>Fillon</h2>
+                <p>Her apprentice, who travels with her, is also a war orphan raised by Heita. The calm young girl, like
+                    a
+                    mother to take care of the lazy life of Flillian</p>
+            </div>
         </div>
-        <div class="profile-info">
-            <h2>Fillon</h2>
-            <p>Her apprentice, who travels with her, is also a war orphan raised by Heita. The calm young girl, like a
-                mother to take care of the lazy life of Flillian</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 </script>

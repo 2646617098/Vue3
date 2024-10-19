@@ -1,12 +1,14 @@
 <template>
-    <Header_P/>
-    <Top_P/>
     <div>
-        <h1 class="content-title">About Page</h1>
+        <Header_P />
+        <Top_P />
+        <div>
+            <h1 class="content-title">About Page</h1>
+        </div>
+        <Comic_P />
+        <Comic_P />
+        <Comic_P />
     </div>
-    <Comic_P/>
-    <Comic_P/>
-    <Comic_P/>
 </template>
 
 <script setup>
@@ -18,9 +20,9 @@ import Top_P from '@/components/Top.vue';
 </script>
 
 <style scoped>
-    .content-title {
-        text-align: center;
-        margin-top: 50px;
-        font-size: 250px;
-    }
+.content-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 250px;
+}
 </style>

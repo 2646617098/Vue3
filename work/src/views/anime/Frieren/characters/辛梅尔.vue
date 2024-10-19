@@ -1,21 +1,24 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/芙莉莲图选/头像辛美尔.webp" alt="">
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/芙莉莲图选/头像辛美尔.webp" alt="">
+            </div>
+            <div class="profile-info">
+                <h2>Himmel</h2>
+                <p>The brave man who defeated the Demon Lord, who first appeared since the first words of the manga,
+                    left a
+                    strong color in the life of Lillian, and has since appeared in the memories of Lillian</p>
+            </div>
         </div>
-        <div class="profile-info">
-            <h2>Himmel</h2>
-            <p>The brave man who defeated the Demon Lord, who first appeared since the first words of the manga, left a
-                strong color in the life of Lillian, and has since appeared in the memories of Lillian</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
-</template>
+</template>s
 <script setup>
 </script>
 <style scoped>

@@ -1,23 +1,27 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/青春期少年图选/古贺头像.jpg" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/青春期少年图选/古贺头像.jpg" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>Koga Tomoe</h2>
+                <!--人物简介-->
+                <p>She enrolled in Kanagawa Tachimohara High School first year, Sakita Tsukawa's school sister, is full
+                    of
+                    justice sense of the girl.
+                    Because the senior senior confesses, do not know how to solve, so caused the adolescent syndrome.
+                    And
+                    then concluded with Sakita pretend lover agreement</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>Koga Tomoe</h2>
-            <!--人物简介-->
-            <p>She enrolled in Kanagawa Tachimohara High School first year, Sakita Tsukawa's school sister, is full of
-                justice sense of the girl.
-                Because the senior senior confesses, do not know how to solve, so caused the adolescent syndrome. And
-                then concluded with Sakita pretend lover agreement</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 

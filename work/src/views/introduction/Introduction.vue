@@ -1,24 +1,30 @@
 <template>
-    <Header_P />
-    <div class="main">
-        <h1 style="font-weight: bolder;color: rgb(201, 32, 96); ">World's Largest Fan-Generated Entertainment & Gaming Platform</h1>
-        <p style="font-size: large;color: aliceblue;">We're a constant companion and the ultimate end-to-end resource for 350 million fans worldwide.</p>
+    <div>
+        <Header_P />
+        <div class="main">
+            <h1 style="font-weight: bolder;color: rgb(201, 32, 96); ">World's Largest Fan-Generated Entertainment &
+                Gaming Platform</h1>
+            <p style="font-size: large;color: aliceblue;">We're a constant companion and the ultimate end-to-end
+                resource for 350 million fans worldwide.</p>
+        </div>
+        <div class="introd">
+            <div class="box">
+                <h2 style="color: rgb(33, 5, 59);font-weight: 800;">News & Features</h2>
+                <p>Our sites are a go-to dstination for news,features,and in-depth analysis of gaming and entertainment.
+                </p>
+            </div>
+            <div class="box">
+                <h2 style="color: rgb(33, 5, 59);font-weight: 800;">Reviws & Ratings</h2>
+                <p>Use our expert resources to find out what to watch or play next or to discover your next big
+                    obsession.</p>
+            </div>
+            <div class="box">
+                <h2 style="color: rgb(33, 5, 59);font-weight: 800;">Reference</h2>
+                <p>A universe of content explores entertainment from the fan's perspective-watch thousands of hours of
+                    video created for fans ,by fans.</p>
+            </div>
+        </div>
     </div>
-    <div class="introd">
-        <div class="box">
-            <h2 style="color: rgb(33, 5, 59);font-weight: 800;">News & Features</h2>
-            <p>Our sites are a go-to dstination for news,features,and in-depth analysis of gaming and entertainment.</p>
-        </div>
-        <div class="box">
-            <h2 style="color: rgb(33, 5, 59);font-weight: 800;">Reviws & Ratings</h2>
-            <p>Use our expert resources to find out what to watch or play next or to discover your next big obsession.</p>
-        </div>
-        <div class="box">
-            <h2 style="color: rgb(33, 5, 59);font-weight: 800;">Reference</h2>
-            <p>A universe of content explores entertainment from the fan's perspective-watch thousands of hours of video created for fans ,by fans.</p>
-        </div>
-    </div>
-
 </template>
 
 <script setup>

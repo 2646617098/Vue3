@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-sm" style="padding: 10px;">
+            <div class="col-sm" style="padding: 5px;">
                 <div style="background-color: brown; padding: 10px;">
                     <h2 style="color: aliceblue; font-weight: 800;vertical-align: middle;">Wonder Entertainment</h2>
                 </div>
@@ -46,6 +46,6 @@
 
 <style scoped>
 .container {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 </style>

@@ -1,24 +1,28 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/死亡笔记图选/弥海砂头像.jpg" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/死亡笔记图选/弥海砂头像.jpg" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>miaite</h2>
+                <!--人物简介-->
+                <p>After accidentally picking up the notebook from the Shinigami Reme, he travels from Kansai to Tokyo i
+                    n order to contact KIRA and causes an incident as a fake KIRA. In gratitude to KIRA for punishing th
+                    e robbers who killed her parents, she contacted KIRA, the Night goddess Moon. Appearing as the
+                    girlfrien
+                    d of the night God Moon, with the eyes of death, has always wanted to be with the night God Moon,
+                    has b
+                    een used by the night God Moon, but is still willing</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>miaite</h2>
-            <!--人物简介-->
-            <p>After accidentally picking up the notebook from the Shinigami Reme, he travels from Kansai to Tokyo i
-                n order to contact KIRA and causes an incident as a fake KIRA. In gratitude to KIRA for punishing th
-                e robbers who killed her parents, she contacted KIRA, the Night goddess Moon. Appearing as the girlfrien
-                d of the night God Moon, with the eyes of death, has always wanted to be with the night God Moon, has b
-                een used by the night God Moon, but is still willing</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 

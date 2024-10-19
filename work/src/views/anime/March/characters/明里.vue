@@ -1,24 +1,28 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/三月的狮子图选/明里头像.jpg" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/三月的狮子图选/明里头像.jpg" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>Akari Kawamoto</h2>
+                <!--人物简介-->
+                <p>The eldest daughter of the Kawamoto sisters. 24 years old, because of the absence of his parents, and
+                    became the backbone of the Kawamoto family. Good at cooking, love to take care of people. She takes
+                    care
+                    of her two younger sisters in place of her late mother, helps out at Mitsusudo, a Japanese pastry
+                    shop
+                    run by her grandfather, during the day, and works as a publicist at Misaki, a Ginza hotel run by her
+                    aunt Misaki, two nights a week</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>Akari Kawamoto</h2>
-            <!--人物简介-->
-            <p>The eldest daughter of the Kawamoto sisters. 24 years old, because of the absence of his parents, and
-                became the backbone of the Kawamoto family. Good at cooking, love to take care of people. She takes care
-                of her two younger sisters in place of her late mother, helps out at Mitsusudo, a Japanese pastry shop
-                run by her grandfather, during the day, and works as a publicist at Misaki, a Ginza hotel run by her
-                aunt Misaki, two nights a week</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup></script>
 <style scoped>

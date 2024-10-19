@@ -1,22 +1,25 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/青春期少年图选/麻衣头像.jpg" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/青春期少年图选/麻衣头像.jpg" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>Sakurajima Maiyi</h2>
+                <!--人物简介-->
+                <p>She began her career as a child actor at the age of six and became a popular actress. However, when
+                    she
+                    was about to graduate from junior high school, she suddenly announced that she would stop performing
+                    arts activities, and later enrolled in Tachibonghara High School in Kanagawa Prefecture</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>Sakurajima Maiyi</h2>
-            <!--人物简介-->
-            <p>She began her career as a child actor at the age of six and became a popular actress. However, when she
-                was about to graduate from junior high school, she suddenly announced that she would stop performing
-                arts activities, and later enrolled in Tachibonghara High School in Kanagawa Prefecture</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 

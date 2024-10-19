@@ -1,22 +1,25 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/青春期少年图选/咲太头像.jpg" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/青春期少年图选/咲太头像.jpg" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>Azusagawa Sakut</h2>
+                <!--人物简介-->
+                <p>Sakuta Tsukawa, Kanagawa Prefecture Tachibonghara high School sophomore student, is not a smart phone
+                    "primitive man", met in the library dressed as a bunny girl Sakurajima Mayi, and gradually familiar
+                    with
+                    her. She lives with her sister Katabawa. High emotional quotient</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>Azusagawa Sakut</h2>
-            <!--人物简介-->
-            <p>Sakuta Tsukawa, Kanagawa Prefecture Tachibonghara high School sophomore student, is not a smart phone
-                "primitive man", met in the library dressed as a bunny girl Sakurajima Mayi, and gradually familiar with
-                her. She lives with her sister Katabawa. High emotional quotient</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 

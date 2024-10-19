@@ -1,24 +1,30 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/我推的孩子图选/露比头像.jpg" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/我推的孩子图选/露比头像.jpg" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>Hoshino Rubii</h2>
+                <!--人物简介-->
+                <p>In her previous life, Runmeiyi was a severely ill patient named Tentongji Sarina and an avid fan of
+                    her
+                    idol Ai Hoshino. [1] At the age of 12, Sarina's illness worsened and she died young. Four years
+                    after
+                    her death, she was reincarnated as a loving daughter, nicknamed Ruby. [2] After Love's death, Ruby
+                    also
+                    takes the path of an idol in order to fulfill Love's unfinished dream of reuniting with Goro
+                    Amimiya,
+                    her first love in a previous life</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>Hoshino Rubii</h2>
-            <!--人物简介-->
-            <p>In her previous life, Runmeiyi was a severely ill patient named Tentongji Sarina and an avid fan of her
-                idol Ai Hoshino. [1] At the age of 12, Sarina's illness worsened and she died young. Four years after
-                her death, she was reincarnated as a loving daughter, nicknamed Ruby. [2] After Love's death, Ruby also
-                takes the path of an idol in order to fulfill Love's unfinished dream of reuniting with Goro Amimiya,
-                her first love in a previous life</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 

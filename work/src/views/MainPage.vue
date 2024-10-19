@@ -63,7 +63,7 @@ export default {
 </script>
 
 <style scoped>
-.main {
+/* .main {
   margin-right: calc(100% - 100vw);
-}
+}  */
 </style>

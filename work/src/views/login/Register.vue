@@ -1,18 +1,20 @@
 <template>
-  <Header_P></Header_P>
-  <div class="register-form">
-    <h2>Register</h2>
-    <form @submit.prevent="register">
-      <div>
-        <label for="username">Username:</label>
-        <input type="text" placeholder="Enter your username" v-model="username" required>
-      </div>
-      <div>
-        <label for="password">Password:</label>
-        <input type="password" placeholder="Enter your password" v-model="password" required>
-      </div>
-      <button type="submit">Register</button>
-    </form>
+  <div>
+    <Header_P></Header_P>
+    <div class="register-form">
+      <h2>Register</h2>
+      <form @submit.prevent="register">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" placeholder="Enter your username" v-model="username" required>
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" placeholder="Enter your password" v-model="password" required>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
   </div>
 </template>
 
@@ -22,7 +24,7 @@ import axios from 'axios';
 //import { response } from 'express';
 
 export default {
-  name: 'Register_P',
+  name: 'Register',
   components: {
     Header_P
   },
@@ -52,6 +54,9 @@ export default {
           if (this.success) {
             alert('注册成功！');
             this.$router.push('/login');
+          }
+          else {
+            alert(this.message);
           }
         })
         .catch(error => {

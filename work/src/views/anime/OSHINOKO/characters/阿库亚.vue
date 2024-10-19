@@ -1,22 +1,26 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/我推的孩子图选/阿库亚头像.png" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/我推的孩子图选/阿库亚头像.png" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>Hoshino Aquamarin</h2>
+                <!--人物简介-->
+                <p>Aikuai Aikai was an obstetrician and gynecologist named Amiya Goro in a previous life, as well as
+                    an avid
+                    fan and attending doctor of idol Ai Hoshino. [1] After being attacked and killed by Ai's
+                    uncooked rice,
+                    Goro was reincarnated as Ai's son, Aiku Aikai Hoshino, nicknamed Akua</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>Hoshino Aquamarin</h2>
-            <!--人物简介-->
-            <p>Aikuai Aikai was an obstetrician and gynecologist named Amiya Goro in a previous life, as well as an avid
-                fan and attending doctor of idol Ai Hoshino. [1] After being attacked and killed by Ai's uncooked rice,
-                Goro was reincarnated as Ai's son, Aiku Aikai Hoshino, nicknamed Akua</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 

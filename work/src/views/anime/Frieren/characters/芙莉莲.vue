@@ -1,23 +1,26 @@
 <template>
-    <header>
-        <h1>Character introduction</h1>
-    </header>
-    <div class="container">
-        <div class="profile-img">
-            <img src="@/assets/刘康图选集/芙莉莲图选/头像芙.jpg" alt=""> <!--人物头像-->
+    <div>
+        <header>
+            <h1>Character introduction</h1>
+        </header>
+        <div class="container">
+            <div class="profile-img">
+                <img src="@/assets/animeImg/芙莉莲图选/头像芙.jpg" alt=""> <!--人物头像-->
+            </div>
+            <div class="profile-info"> <!--人物名称-->
+                <h2>Frieren</h2>
+                <!--人物简介-->
+                <p>The sorcerer of the brave line of the demon King, the long-lived elf race, the disciple of the human
+                    race, the great magic of Volame, whose name originates from German, meaning "frozen". When she was a
+                    child, the village where she lived was slaughtered by the demon tribe, and she was saved by the
+                    Great
+                    magic of Volame after killing the demon general, and became Volame's apprentice</p>
+            </div>
         </div>
-        <div class="profile-info"> <!--人物名称-->
-            <h2>Frieren</h2>
-            <!--人物简介-->
-            <p>The sorcerer of the brave line of the demon King, the long-lived elf race, the disciple of the human
-                race, the great magic of Volame, whose name originates from German, meaning "frozen". When she was a
-                child, the village where she lived was slaughtered by the demon tribe, and she was saved by the Great
-                magic of Volame after killing the demon general, and became Volame's apprentice</p>
-        </div>
+        <footer>
+            <p>&copy; Character introduction page</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Character introduction page</p>
-    </footer>
 </template>
 <script setup>
 </script>
