@@ -3,6 +3,13 @@
 
 今天把登录整出来了，然后发现了vscode里的git功能，还挺方便，在github上整了第一个仓库，但是还不太会用，也不知道是不是网络原因0-0。一直在提交同步，查了一下好像是个bug，那个输入栏必须起个名字，我试一下。wc真的哎，瞬间就提交了0-0。但网络应该也得能上github，清除代理什么的。然后先提交修改，然后一起推送到github
 那岂不是可拿github当云盘了哈哈
+
 之后应该去试试GitKraken这样的图形化客户端
 
 README.md这个自述文件会直接展示在github的主页上
+
+
+刚才出现了别的问题，照着错误日志搜了一下，输入这个解决了
+ git SSL certificate problem: unable to get local issuer certificate
+这个问题是由于没有配置信任的服务器HTTPS验证。默认，cURL被设为不信任任何CAs，就是说，它不信任任何服务器验证。
+git config --global http.sslVerify false
