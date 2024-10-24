@@ -13,7 +13,7 @@
         <div class="row g-3">
             <div class="col-2">
                 <div class="border bg-light" style="text-align: center;">
-                    <img src="@/assets/img/games(1).png" alt="" class="img-fluid">
+                    <router-link to="/minecraft1"><img src="@/assets/img/games(1).png" alt="" class="img-fluid"></router-link>
                     <p
                         style="font-family: Georgia, 'Times New Roman', Times, serif;  font-size: large; font-weight: 800;">
                         Minecraft</p>
@@ -21,27 +21,26 @@
             </div>
             <div class="col-2">
                 <div class="border bg-light" style="text-align: center;">
-                    <img src="@/assets/img/games(2).png" alt="" class="img-fluid">
+                    <router-link to="/naruto1"><img src="@/assets/img/games(2).png" alt="" class="img-fluid"></router-link>
                     <p
                         style="font-family: Georgia, 'Times New Roman', Times, serif;  font-size: large; font-weight: 800;">
-                        Cyberpunk 2077</p>
+                        Naruto</p>
                 </div>
             </div>
             <div class="col-2">
                 <div class="border bg-light" style="text-align: center;">
-                    <img src="@/assets/img/games(3).png" alt="" class="img-fluid">
+                    <router-link to="/genshin1"><img src="@/assets/photo/genshin.png" alt="" class="img-fluid"></router-link>
                     <p
                         style="font-family: Georgia, 'Times New Roman', Times, serif;  font-size: normal; font-weight: 800;">
-                        Assassin's Creed Unity</p>
+                        Genshin Impact</p>
                 </div>
             </div>
             <div class="col-2">
                 <div class="border bg-light" style="text-align: center;">
-                    <img src="@/assets/img/games(4).png" alt="" class="img-fluid">
+                    <router-link to="/honorOfKings1"><img src="@/assets/photo/honorOfKings.webp" alt="" class="img-fluid"></router-link>
                     <p
                         style="font-family: Georgia, 'Times New Roman', Times, serif;  font-size: large; font-weight: 800;">
-                        Sonic
-                        Classic</p>
+                        Honor of Kings</p>
                 </div>
             </div>
             <div class="col-2">
